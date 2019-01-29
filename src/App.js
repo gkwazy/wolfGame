@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Home from './pages/homepage'
 import Navbar from './pages/Navbar'
 
+
 class App extends Component {
   render() {
     return (
