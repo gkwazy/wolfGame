@@ -9,7 +9,8 @@ class App extends Component {
     return (
       <Router>
         <div className="App">
-          <h1>Wolf game man</h1>
+          <Navbar />
+          <Home />
         </div>
       </Router>
     );

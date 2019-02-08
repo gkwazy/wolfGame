@@ -1,10 +1,14 @@
-import React from 'react';
+import React from "react";
+import { NavLink } from "react-router-dom";
+import NavOutBar from "./navOutBar";
+import NavInBar from "./navInBar";
 
-const Navbar = () => (
+const Navbar = () => {
+  return (
     <div>
-        <nav class="navbar navbar-light bg-light">
-            <a class="navbar-brand" href="#">WolfGame!</a>
-        </nav>
+      <NavInBar />
+      <NavOutBar />
     </div>
-);
+  );
+};
 export default Navbar;
