@@ -3,16 +3,25 @@ import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Home from './pages/homepage'
-import Navbar from './pages/Navbar'
+import noMatch from './pages/noMatch'
 
 
 class App extends Component {
+
+  state = {
+    isSignedIn: false,
+    open: true
+  }
   render() {
     return (
-      <div className="App">
-        <Navbar />
-        <Home />
-      </div>
+      <Router>
+        <div className="App">
+          <Switch>
+            <Route exact path="/" component={Home} />
+            <Route component={noMatch} />
+          </Switch>
+        </div>
+      </Router>
     );
   }
 }
