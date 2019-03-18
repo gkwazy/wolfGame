@@ -1,12 +1,10 @@
 import React from 'react';
-
+import "./notification.css"
 const Notifications = () => {
     return (
-        <div>
-            <h1>
-                Wolf Game
-            </h1>
-        </div>
+        <nav className="navbar">
+            <a className="navbar-brand" href="#">Wolf Game</a>
+        </nav>
     )
 }
 

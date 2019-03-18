@@ -2,12 +2,10 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 
 
-const CharaterBox = () => {
+const CharaterBox = (props) => {
     return (
         <div>
-            <h1>
-                charaterBox
-            </h1>
+            <h1>yo man it is here</h1>
         </div>
     );
 };

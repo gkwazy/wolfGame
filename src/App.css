@@ -1,6 +1,9 @@
 .App {
   text-align: center;
-  background-color: aqua;
+  color:white;
+  background-image:url("/pic/Yugi.jpg");
+  height:1000px;
+
 }
 
 .App-logo {
@@ -24,7 +27,7 @@
 }
 html{
   background-color:black;
-  background-image:url("/pic/Yugi.jpg");
+  
   background-repeat: no-repeat; 
   background-size:cover;
   background-attachment: fixed;
